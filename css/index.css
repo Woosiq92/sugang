@@ -1,0 +1,101 @@
+ol, ul{
+list-style:none;
+}
+
+
+#login .login_con .menu>ul li:nth-child(1){
+
+margin-bottom: 20px;
+}
+#login .login_con .menu>ul li:nth-child(2){
+
+margin-bottom: 20px;
+}
+#login .login_con .menu>ul li:nth-child(3){
+
+margin-bottom: 20px;
+}
+#login .login_con .menu>ul li:nth-child(4){
+
+margin-bottom: 20px;
+}
+
+
+#login .login_con .menu>ul li{
+width:175px;
+}
+
+#login{
+position: absolute;
+top:50%;
+left:50%;
+margin:-190px 0 0 -464px;
+width: 928px;
+height:400px;
+
+}
+#login .tit{
+margin-bottom: 18px;
+
+
+}
+#login .tit h1{
+margin: 0 22px 0 38px;
+
+
+}
+#login .login_con{
+box-sizing:border-box;
+padding:60px 60px 0 60px;
+background-color:#094a9a;
+height:500x;
+width:928px;
+}
+#login .login_con h3{
+margin-bottom: 34px;
+}
+#login .login_con .login_area{
+position: relative;
+overflow : hedden;
+}
+#login .login_con .login_area>div{
+overflow:hidden;
+}
+#login .id_w{
+position: relative;
+}
+
+#login .id_w>p{
+table-layout: fixed;
+display: table;
+margin-bottom : 8px;
+}
+#login .id_w>p>label{
+display: table-cell;
+width: 110px;
+height: 32px;
+vertical-align : middle;
+color : #fff;
+font-weight:bold;
+}
+#login .id_w .txt {
+    padding-top: 10px;
+    font-weight: bold;
+    color: #e2e0e1;
+    font-size: 11px;
+}
+
+ .btn_login {
+    display: block;
+    position: absolute;
+    top: 19px;
+    left: 300px;
+    box-sizing: border-box;
+    padding-top: 4px;
+    width: 86px;
+    height: 68px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 20px;
+ 
+    }
